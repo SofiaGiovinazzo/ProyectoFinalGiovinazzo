@@ -17,3 +17,7 @@ def blog_detail(request, blog_id):
 def page_list(request):
     pages = Page.objects.all()
     return render(request, 'myblog/page_list.html', {'pages': pages})
+
+def page_detail(request, page_id):
+    page = get_object_or_404(Page, pk=page_id)
+    return render(request, 'myblog/page_detail.html', {'page': page})
