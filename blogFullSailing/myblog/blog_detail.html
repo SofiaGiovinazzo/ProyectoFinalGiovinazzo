@@ -1,0 +1,15 @@
+<!-- myblog/templates/myblog/blog_detail.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ blog.title }}</title>
+</head>
+<body>
+    <h1>{{ blog.title }}</h1>
+    <h2>{{ blog.subtitle }}</h2>
+    <p>{{ blog.body }}</p>
+    <p>Author: {{ blog.author }}</p>
+    <p>Date: {{ blog.created_at }}</p>
+    <img src="{{ blog.image.url }}" alt="{{ blog.title }} Image">
+</body>
+</html>
