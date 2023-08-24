@@ -14,10 +14,8 @@ from django.contrib.auth.models import User
 # Create your views here.
 
 
-
 def inicio(request):
-    avatares = Avatar.objects.filter(user=request.user.id)
-    return render(request, 'inicio.html', {'url':avatares[0].imagen.url})
+    return render(request, 'Inicio.html')
 
 #def Alumnos(request):
     return render(request, 'Alumnos.html')

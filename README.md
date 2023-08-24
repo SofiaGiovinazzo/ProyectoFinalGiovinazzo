@@ -1,4 +1,4 @@
-# TerceraPre-EntregaGiovinazzo: Full Sailing - pagina web para emprendimiento de escuela de vela
+# Proyecto Final Giovinazzo: Full Sailing - pagina web para emprendimiento de escuela de vela
 
 Este proyecto crea una web en Python para almacenar datos de una escuela de vela (Full Sailing), donde se podrá registrar el alumno, el profesor y elegir el dia del examen final. El objetivo principal es optimizar la información de los usuarios y de esta manera acceder a ella de una forma automatizada. Por otro lado, se pretende organizar las fechas de examen de los alumnos y mantener un control sobre la disponibilidad. 
 
